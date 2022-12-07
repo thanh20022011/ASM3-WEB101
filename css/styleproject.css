@@ -1,0 +1,82 @@
+* {
+  font-family: sans-serif;
+}
+.d-md-flex {
+  text-align: center;
+}
+.d-md-flex p {
+  text-align: start;
+}
+/*định dạng tiêu đề và văn bản*/
+h2 {
+  text-align: center;
+  margin: 50px auto;
+}
+p {
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+/*định dạng mục timeline*/
+.main-content {
+  background: #f0f8ff;
+  margin: 10px auto;
+  min-height: 780px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*định dạng 4 mục còn lại*/
+.sidebar-content {
+  margin: 10px auto;
+  background: #f0f8ff;
+  min-height: 380px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*định dạng background*/
+.container {
+  background: blue;
+  min-height: 800px;
+}
+/*định dạng icon*/
+.icon {
+  height: 32px;
+  padding-right: 30px;
+  min-width: 100px;
+}
+
+/*định dạng title*/
+.title {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  color: blue;
+}
+/*định dạng bên trong goals*/
+.goal {
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+/*định dạng bên trong scopes*/
+.scope {
+  gap: 50px;
+}
+.scope p {
+  margin-bottom: 20px;
+}
+/*định dạng icon timeline*/
+.ic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  margin-right: 20px;
+  background-color: #9e88ff;
+  color: white;
+}
+.time {
+  border-bottom: 1px dashed rgb(207, 207, 207);
+}

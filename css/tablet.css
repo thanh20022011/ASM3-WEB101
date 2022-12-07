@@ -1,0 +1,144 @@
+/*ASM 3*/
+/*For tablet*/
+@media (max-width: 768px) and (min-width: 576px) {
+  /*chỉnh độ rộng của các thành phần*/
+  section .container,
+  #banner,
+  #about,
+  .container-2,
+  #certificate,
+  #project,
+  .certificate-inner,
+  .left-bar,
+  .du-an {
+    width: 100%;
+    margin: auto;
+  }
+  .section-title {
+    margin-bottom: 0;
+    font-size: 28px;
+  }
+  /*căn chỉnh nav-bar*/
+  .container-1 a {
+    border: none;
+  }
+  .nav-img {
+    display: none;
+  }
+  #nav-bar a:first-child {
+    border-right: none;
+  }
+  #nav-bar a:nth-child(4) {
+    border-left: none;
+    border-right: none;
+  }
+  #nav-bar a {
+    border-left: 1px solid rgb(212, 212, 212);
+    border-right: 1px solid rgb(212, 212, 212);
+  }
+  .nav {
+    width: 120px;
+  }
+  /*tao grid area của cả phần info*/
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "kng hd"
+      "kn hv"
+      "nn st";
+    gap: 30px;
+  }
+
+  .kng {
+    grid-area: kng;
+    padding-bottom: 20px;
+  }
+  .kn {
+    grid-area: kn;
+    padding-bottom: 20px;
+  }
+  .nn {
+    grid-area: nn;
+    padding-bottom: 20px;
+  }
+  .hd {
+    grid-area: hd;
+    padding-bottom: 20px;
+  }
+  .hv {
+    grid-area: hv;
+    padding-bottom: 20px;
+  }
+  .st {
+    grid-area: st;
+    padding-bottom: 20px;
+  }
+  /*chỉnh lại nội dung trong mục infor kinh nghiệm */
+  .info-2 {
+    align-self: flex-start;
+  }
+  .skill {
+    display: flex;
+    flex-direction: column;
+  }
+  .all-point {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .about-2 {
+    padding: 20px 20px;
+  }
+  /*grid lại phần sở thích */
+  .st-1 {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding-left: 20px;
+  }
+  /*flex lại phần chứng chỉ*/
+  .left-bar {
+    flex-direction: column;
+  }
+  #certificate {
+    padding: 0 20px;
+    align-items: center;
+  }
+
+  /*chinh sua kich thuoc anh du an da lam*/
+  .du-an img {
+    height: 30vw;
+    width: 30vw;
+    margin: auto;
+  }
+  /*chỉnh sửa kích thước phần dự án đã làm*/
+  .du-an {
+    height: 600px;
+    padding: 0 10px;
+  }
+  .about-1 {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(206, 206, 206);
+  }
+  .about-3 {
+    min-width: 100px;
+  }
+  .mo-ta,
+  .mo-ta-1 {
+    border-bottom: none;
+  }
+  /*chỉnh lại kích cỡ footer*/
+  #footer {
+    text-align: center;
+    font-size: 16px;
+  }
+  .ic-sn {
+    font-size: 24px;
+    color: #199cdb;
+  }
+}
